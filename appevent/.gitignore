@@ -1,0 +1,33 @@
+# ---- Sensitive / credentials ----
+# Firebase service keys and configs
+*.env
+*.json
+firebaseConfig.js
+firebase*.json
+**/key/*.json
+
+# Logs
+logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+lerna-debug.log*
+
+node_modules
+dist
+dist-ssr
+*.local
+appevent/cypress/key/appevent-9ca9c-firebase-adminsdk-fbsvc-420088c002.json
+
+# Editor directories and files
+.vscode/*
+!.vscode/extensions.json
+.idea
+.DS_Store
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.sw?
